@@ -1,3 +1,4 @@
+import Profile_Card from "./components/Profile_Card"
 
 
 function App() {
@@ -5,7 +6,10 @@ function App() {
 
   return (
     <>
-      <div>hy</div>
+    <div className="flex justify-center items-center">
+        <Profile_Card /> 
+    </div>
+      
     </>
   )
 }
