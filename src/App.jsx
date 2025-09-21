@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center bg-red-400">
         <Profile_Card /> 
     </div>
       
